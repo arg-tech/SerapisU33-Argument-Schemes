@@ -1,0 +1,28 @@
+{"nodes":[{"nodeID":"96","text":"There is lack of evidence about Person's X guilt","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"97","text":"Person X erased evidence of guilt","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"98","text":"Person X is tasked to recruiting new militants","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"99","text":"Person X is related to Person Y","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"100","text":"X is recruiting Y","type":"I","timestamp":"2021-01-25 13:27:05"},
+        
+          
+          {"nodeID":"101","text":"If there is lack of evidence about someone's guilt, then he/she erased evidence of guilt","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"102","text":"If someone is tasked to recruiting new militants and he is related to another person, then the first is recruiting the second","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          
+          
+          {"nodeID":"103","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Evidence of guilt erasing","schemeID":"72", "CQ": ["Is it possible to exist other evidence of guilt elsewhere?", "Is this the only reason justifying the lack of evidence?"]},
+          {"nodeID":"104","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Militant recruitment using relation","schemeID":"72", "CQ": ["Is there evidence that he is tasked to recruiting new militants?", "Is there any possibility that these two have a different kind of relation?", "Are there any other evidence that prove the recruitment attempt?"]}
+         
+         ],
+
+ "edges":[{"edgeID":"ee134","fromID":"96","toID":"103","formEdgeID":null},
+          {"edgeID":"ee135","fromID":"101","toID":"103","formEdgeID":null},
+          {"edgeID":"ee136","fromID":"103","toID":"97","formEdgeID":null},
+          
+          {"edgeID":"ee137","fromID":"98","toID":"104","formEdgeID":null}, 
+          {"edgeID":"ee138","fromID":"99","toID":"104","formEdgeID":null},
+          {"edgeID":"ee139","fromID":"102","toID":"104","formEdgeID":null},
+          {"edgeID":"ee140","fromID":"104","toID":"100","formEdgeID":null}
+        
+         ],
+ 
+ "locutions":[]}

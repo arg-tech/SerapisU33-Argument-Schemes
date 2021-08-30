@@ -1,0 +1,50 @@
+{"nodes":[{"nodeID":"45","text":"Person X posseses military equipment","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"46","text":"Person X posseses documents from a terrorist organization","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"47","text":"Person X is a foreign fighter","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"48","text":"Person X attempts to erase evidence of guilt","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"49","text":"Person X has been alerted","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"50","text":"No evidence about the person who alerted Person X","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"51","text":"Person X has not been alerted","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+        
+          {"nodeID":"52","text":"If someone posseses military equipment, then he/she is a foreign fighter","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"53","text":"If someone posseses documents from a terrorist organization, then he/she is a foreign fighter","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"54","text":"If someone attempts to erase evidence of guilt, then he/she has been alerted","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"55","text":"If there is lack of evidence about who alerted a person, then he/she has not been alerted","type":"I","timestamp":"2021-01-25 13:27:05"},
+          
+          
+          {"nodeID":"56","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"FF - Military equipment","schemeID":"", "CQ": ["Does he own permission for possesion?", "Is he a militant instead of terrorist?", "Are these the only stuff in his possession indicating that he is a foreign fighter?"]},
+          {"nodeID":"57","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"FF - Documents of terrorism","schemeID":"", "CQ": ["Is there any chance that the documents resulted in his hands by chance?", "Does owning terroristic documents actually indicate a foreign fighter?", "Can't someone who is not a foreign fighter have such documents?"]}, 
+          {"nodeID":"58","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Alerting - Evidence Erasing", "schemeID":"",  "CQ": ["Is there any other reason for someone to erase evidence?", "Couldn't he just want to save space?"] },
+          {"nodeID":"59","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Not Alerting - Lack of Evidence","schemeID":"", "CQ": ["Are there any evidence that prove that someone is being alerted?"]}, 
+          
+          {"nodeID":"60","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}, 
+          {"nodeID":"61","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}
+         
+         ],
+
+ "edges":[{"edgeID":"ee72","fromID":"45","toID":"56","formEdgeID":null},
+          {"edgeID":"ee73","fromID":"52","toID":"56","formEdgeID":null},
+          {"edgeID":"ee74","fromID":"56","toID":"47","σformEdgeID":null},
+          
+          {"edgeID":"ee75","fromID":"46","toID":"57","formEdgeID":null}, 
+          {"edgeID":"ee76","fromID":"53","toID":"57","formEdgeID":null},
+          {"edgeID":"ee77","fromID":"57","toID":"47","formEdgeID":null},
+          
+          {"edgeID":"ee78","fromID":"48","toID":"58","formEdgeID":null},
+          {"edgeID":"ee79","fromID":"54","toID":"58","formEdgeID":null}, 
+          {"edgeID":"ee80","fromID":"58","toID":"49","formEdgeID":null}, 
+          
+          {"edgeID":"ee81","fromID":"50","toID":"59","formEdgeID":null},
+          {"edgeID":"ee82","fromID":"55","toID":"59","formEdgeID":null},
+          {"edgeID":"ee83","fromID":"59","toID":"51","formEdgeID":null},
+          
+          {"edgeID":"ee84","fromID":"49","toID":"60","formEdgeID":null}, 
+          {"edgeID":"ee85","fromID":"60","toID":"51","formEdgeID":null}, 
+          {"edgeID":"ee86","fromID":"51","toID":"61","formEdgeID":null},
+          {"edgeID":"ee87","fromID":"61","toID":"49","formEdgeID":null}
+         ],
+ 
+
+ 
+ 
+ "locutions":[]}

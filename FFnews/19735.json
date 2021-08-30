@@ -1,0 +1,43 @@
+{"nodes":[{"nodeID":"181","text":"There is an influx of islamists/jihadists/foreign fighters into an area A","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"182","text":"There is militancy in area A","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"183","text":"Area A is a potential alternative destination for returning islamists/jihadists/foreign fighters","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"184","text":"Radicals enter into area A","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"185","text":"A group of people X follows an illegal route","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"186","text":"X is a militant group","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"187","text":"People travel without detection in the area","type":"I","timestamp":"2021-01-25 13:27:05"},
+         
+          
+          {"nodeID":"188","text":"If there is an influx of islamists/jihadists/foreign fighters into an area and there is militancy there, then the area is a potential alternative destination for returning islamists/jihadists/foreign fighters","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"189","text":"If radicals enter into an area, then  the area is a potential alternative destination for returning islamists/jihadists/foreign fighters","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"190","text":"If a group of people follows illegal routes, then they are militants","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"191","text":"If a group of people follows illegal routes and they are militants, then they travel without detection in the area","type":"I","timestamp":"2021-01-25 13:27:05"},             
+          
+          
+          {"nodeID":"192","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Foreign fighter influx - returning point","schemeID":"72",  "CQ": ["Is there an alternative explanation about this influx?", "Was there really an influx in this area?", "Are there other areas in which a similar event was observed?"]},
+          {"nodeID":"193","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Raidcals enter - returning point","schemeID":"72",  "CQ": ["Is there an alternative explanation about their entrance into the area?", "Did they actually enter this area?", "Are there other areas in which a similar event was observed?"]},
+          {"nodeID":"194","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Militants' illegal routes","schemeID":"72", "CQ": ["Are the routes they follow actually illegal?", "Is this the only explanation for someone to follow an illegal route?", "Can this fact be related to different illegal activities?", "Do militants follow illegal routes?", "Is it that only militants follow illegal routes?"]},
+          {"nodeID":"195","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Travel without detection","schemeID":"72", "CQ": ["Are the routes they follow actually illegal?", "Are they actually militants?" "Is this the only explanation for a militant to follow an illegal route?"]}
+         ],
+
+ "edges":[{"edgeID":"ee249","fromID":"181","toID":"192","formEdgeID":null},
+          {"edgeID":"ee250","fromID":"182","toID":"192","formEdgeID":null},
+          {"edgeID":"ee251","fromID":"188","toID":"192","formEdgeID":null},
+          {"edgeID":"ee252","fromID":"192","toID":"183","formEdgeID":null},
+          
+          {"edgeID":"ee253","fromID":"184","toID":"193","formEdgeID":null},
+          {"edgeID":"ee254","fromID":"189","toID":"193","formEdgeID":null},
+          {"edgeID":"ee255","fromID":"193","toID":"183","formEdgeID":null},
+          
+          {"edgeID":"ee256","fromID":"185","toID":"194","formEdgeID":null},
+          {"edgeID":"ee257","fromID":"190","toID":"194","formEdgeID":null},
+          {"edgeID":"ee258","fromID":"194","toID":"186","formEdgeID":null},
+          
+          {"edgeID":"ee259","fromID":"185","toID":"195","formEdgeID":null},
+          {"edgeID":"ee260","fromID":"186","toID":"195","formEdgeID":null},
+          {"edgeID":"ee261","fromID":"191","toID":"195","formEdgeID":null},
+          {"edgeID":"ee262","fromID":"195","toID":"187","formEdgeID":null}
+          
+          
+         ],
+ 
+ "locutions":[]}

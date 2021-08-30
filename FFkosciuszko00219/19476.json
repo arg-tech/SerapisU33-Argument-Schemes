@@ -1,0 +1,69 @@
+{"nodes":[{"nodeID":"156","text":"Person X shaves his beard","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"157","text":"Person X is preparing for an athletic activity","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"158","text":"Person X does not present a threat for act of terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"159","text":"Person X is not involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"160","text":"Person X is related to islamic groups","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"161","text":"Person X presents a threat for terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"162","text":"Person X is a foreign fighter","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"163","text":"Person X makes connections with islamic groups","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"164","text":"Person X is a militant","type":"I","timestamp":"2021-01-25 13:27:05"},
+          
+          
+          {"nodeID":"165","text":"If someone shaves his beard, then he is preparing for an athletic activity","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"166","text":"If someone is preparing for an athletic activity, then he does not present a threat for terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"167","text":"If someone is not involved in militant activities, then he does not present a threat for terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"168","text":"If someone is related to islamic groups, then he/she presents a threat for terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"169","text":"If someone is a foreign fighter, then he/she presents a threat for act of terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"170","text":"If someone makes connections with islamic groups, then he/she presents a threat for terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"171","text":"If someone is a militant, then he/she presents a threat for terrorism","type":"I","timestamp":"2021-01-25 13:27:05"},           
+          
+          
+          {"nodeID":"172","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Beard shaving due to athletic activity","schemeID":"72", "CQ": ["Is athletic activity the only reason for someone to shave his beard?", "Is there any other evidence that he is preparing for athletic activity?"]},
+          {"nodeID":"173","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Connection between athletic activities and terrorism","schemeID":"72", "CQ": ["How athletic activities exclude acts of terrorism?", "Is there enough evidence that he is preparing for athletic activity?", "Is there any chance that he uses athletic activities to camouflage terroristic acts?"]},
+          {"nodeID":"174","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"No involvement in militant activities","schemeID":"72", "CQ": ["Is there indisputable evidence that he is not involved in militant activities?", "Is this the only way for someone to present a threat for terroristic acts?"]},
+          {"nodeID":"175","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Relation to islamic groups: terrorism threat","schemeID":"72", "CQ": ["Does he actually have relations to islamic groups?", "Does everyone related to islamic groups present a threat of terrorism?", "Can this relation be explained differently than that he presents a threat?", "Is there any other evidence that make him suspect for terroristic acts?"]},
+          {"nodeID":"176","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Foreign fighter: terrorism threat","schemeID":"72", "CQ": ["Is he really a foreign fighter?", "Do foreign fighters actually present a threat of terrorism?"]},
+          {"nodeID":"177","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Connection to islamic groups: terrorism threat","schemeID":"72",  "CQ": ["Does he actually have relations to islamic groups?", "Does everyone related to islamic groups present a threat of terrorism?", "Can this relation be explained differently than that he presents a threat?", "Is there any other evidence that make him suspect for terroristic acts?"]},
+          {"nodeID":"178","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Militant - terrorism threat","schemeID":"72",  "CQ": ["Is he actually a militant?", "Does militant present a threat of terrorism?", "Is there any other evidence that make him suspect for terroristic acts?"]},
+          
+                    
+          {"nodeID":"179","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}, 
+          {"nodeID":"180","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}
+         ],
+
+ "edges":[{"edgeID":"ee215","fromID":"156","toID":"172","formEdgeID":null},
+          {"edgeID":"ee216","fromID":"165","toID":"172","formEdgeID":null},
+          {"edgeID":"ee217","fromID":"172","toID":"157","formEdgeID":null},
+          
+          {"edgeID":"ee218","fromID":"157","toID":"173","formEdgeID":null}, 
+          {"edgeID":"ee219","fromID":"166","toID":"173","formEdgeID":null},
+          {"edgeID":"ee220","fromID":"173","toID":"158","formEdgeID":null},
+          
+          {"edgeID":"ee221","fromID":"159","toID":"174","formEdgeID":null}, 
+          {"edgeID":"ee222","fromID":"167","toID":"174","formEdgeID":null},
+          {"edgeID":"ee223","fromID":"174","toID":"158","formEdgeID":null},
+          
+          {"edgeID":"ee224","fromID":"160","toID":"175","formEdgeID":null}, 
+          {"edgeID":"ee225","fromID":"168","toID":"175","formEdgeID":null},
+          {"edgeID":"ee226","fromID":"175","toID":"161","formEdgeID":null},
+          
+          {"edgeID":"ee227","fromID":"162","toID":"176","formEdgeID":null}, 
+          {"edgeID":"ee228","fromID":"169","toID":"176","formEdgeID":null},
+          {"edgeID":"ee229","fromID":"176","toID":"161","formEdgeID":null},
+        
+          {"edgeID":"ee230","fromID":"163","toID":"177","formEdgeID":null}, 
+          {"edgeID":"ee231","fromID":"170","toID":"177","formEdgeID":null},
+          {"edgeID":"ee232","fromID":"177","toID":"161","formEdgeID":null},
+          
+          {"edgeID":"ee233","fromID":"164","toID":"178","formEdgeID":null}, 
+          {"edgeID":"ee234","fromID":"171","toID":"178","formEdgeID":null},
+          {"edgeID":"ee235","fromID":"178","toID":"161","formEdgeID":null},
+          
+          //conflict
+          {"edgeID":"ee236","fromID":"158","toID":"179","formEdgeID":null}, 
+          {"edgeID":"ee237","fromID":"179","toID":"161","formEdgeID":null},
+          {"edgeID":"ee238","fromID":"161","toID":"180","formEdgeID":null},
+          {"edgeID":"ee239","fromID":"180","toID":"158","formEdgeID":null}
+         ],
+ 
+ "locutions":[]}

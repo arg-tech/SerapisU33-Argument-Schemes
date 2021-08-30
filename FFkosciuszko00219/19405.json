@@ -1,0 +1,35 @@
+{"nodes":[{"nodeID":"143","text":"Person X and person Y have had conversations","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"144","text":"There are links between persons X and person Y","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"145","text":"Person X and person Y possess documents about the same islamic group","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"146","text":"Person X and person Y travel from point P1 to point P2","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"147","text":"Person X and person Y follow the same route","type":"I","timestamp":"2021-01-25 13:27:05"},
+          
+          {"nodeID":"148","text":"If two persons have had conversations, then there are links between them","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"149","text":"If two persons possess documents about the same islamic group, then there are links between them","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"150","text":"If two persons travel from the same points P1 and P2 then they followed the same route","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"151","text":"If two persons followed the same route, then there are links between them","type":"I","timestamp":"2021-01-25 13:27:05"},     
+          
+          {"nodeID":"152","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Conversations - links","schemeID":"72", "CQ": ["Did they really have conversations?",]},
+          {"nodeID":"153","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Islamic documents - links","schemeID":"72", "CQ": ["Do they really posses islamic documents?", "Is there any other evidence that links these two individuals?", "Is the possesion of islamic documents enough to infer links between them?"]},
+          {"nodeID":"154","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Same route","schemeID":"72", "CQ": ["Isn't there a different route that passes through these two points?", "Is there indisputable evidence that they actually travelled from these two points?"]},
+          {"nodeID":"155","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Same route - links","schemeID":"72", "CQ": ["Did they really follow the same route?", "Is there any other evidence that links these two individuals?", "Is the fact that they followed the same route enough to infer links between them?"]}
+         ],
+
+ "edges":[{"edgeID":"ee198","fromID":"143","toID":"152","formEdgeID":null},
+          {"edgeID":"ee199","fromID":"148","toID":"152","formEdgeID":null},
+          {"edgeID":"ee200","fromID":"152","toID":"144","formEdgeID":null},
+          
+          {"edgeID":"ee201","fromID":"145","toID":"153","formEdgeID":null}, 
+          {"edgeID":"ee202","fromID":"149","toID":"153","formEdgeID":null},
+          {"edgeID":"ee203","fromID":"153","toID":"144","formEdgeID":null},
+          
+          {"edgeID":"ee204","fromID":"146","toID":"154","formEdgeID":null}, 
+          {"edgeID":"ee205","fromID":"150","toID":"154","formEdgeID":null},
+          {"edgeID":"ee206","fromID":"154","toID":"147","formEdgeID":null},
+          
+          {"edgeID":"ee207","fromID":"147","toID":"155","formEdgeID":null}, 
+          {"edgeID":"ee208","fromID":"151","toID":"155","formEdgeID":null},
+          {"edgeID":"ee209","fromID":"155","toID":"144","formEdgeID":null}
+         ],
+ 
+ "locutions":[]}

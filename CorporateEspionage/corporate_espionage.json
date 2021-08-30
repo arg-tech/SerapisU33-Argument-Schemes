@@ -1,0 +1,174 @@
+{"nodes":[{"nodeID":"196","text":"Person X works in company C1","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"197","text":"Person X has connections/links to competitor company","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"198","text":"Person X is suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"199","text":"Person X has been observed to have conversations with person Y from competitor company","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"200","text":"Persons X and Y are friends","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"201","text":"There is information leak from company C1 to a competitor company C2","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"202","text":"Person X has unauthorized access to confidential information of his company","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"203","text":"Person X is a valuable or reliable employee","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"204","text":"Person X is not suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"205","text":"There are allegations for person X being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"206","text":"Person X has been working previously in competitor company","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"207","text":"Person X possesses books about startups and technology","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"208","text":"Person X is planning to a startup","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"209","text":"There are high value transactions to person X's bank account","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"210","text":"Person X is attempting to secure funds","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"211","text":"Anabolic steroids were located in Person X's stuff","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"212","text":"Person X is using anabolic steroids","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"213","text":"Person X is interested in body building","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"214","text":"Person X has been bullied in workplace","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"215","text":"There have been observed attempts by person X's colleagues to discredit him","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"216","text":"Person X has had a high value purchase","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"217","text":"Person X has received a large amount of money","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"218","text":"Person X's purchase is under a lease or loan","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"219","text":"Peerson X shared the purchase with his/her partner","type":"I","timestamp":"2021-01-25 13:27:05"},
+          
+          
+          
+          {"nodeID":"221","text":"If someone is working for a company and there is information leak to a competitor company and he/she has connections/links with this competitor company, then he/she is suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"222","text":"If someone has been observed to have conversations with another person from competitor company, then they are friends","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"223","text":"If someone has been observed to have conversations with another person from competitor company, then he/she has links/connections to competitor company","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"224","text":"If someone has unauthorized access to confidential information of his company, then he/she is suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"},             
+          {"nodeID":"225","text":"If someone is a valuable or reliable employee, then he/she is not suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"226","text":"If there are allegations for someone being involved in corporate espionage, then he/she is suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"227","text":"If someone has been working previously in competitor company and there is information leak to a competitor company, then he/she is suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"228","text":"If someone possesses books about startups and technology, then he/she is planning to a startup","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"229","text":"If someone is planning to a startup, then he/she is not suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"230","text":"If there are high value transactions to someone's bank account, then he/she is attempting to secure funds","type":"I","timestamp":"2021-01-25 13:27:05"},    
+          {"nodeID":"231","text":"If someone is attempting to secure funds, then he/she is planning to a startup","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"232","text":"If anabolic steroids have been located in someone's stuff, then he/she is using anabolic steroids","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"233","text":"If someone is interested in body building, then he/she is using anabolic steroids","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"234","text":"If someone has been bullied in workplace, then he/she is using anabolic steroids","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"235","text":"If someone has been bullied in workplace and there is there is information leak to a competitor company, then he/she is suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"236","text":"If here are attempts by someone's colleagues to discredit him, then he/she is being bullied in workplace","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"237","text":"If someone has had a high value purchase, then he/she has received a large amount of money","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"238","text":"If someone has had a high value purchase, then his/her purchase is under a lease or loan","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"239","text":"If someone has had a high value purchase, then he/she has shared the purchase with his/her partner","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"240","text":"If someone has received a large amount of money and there is there is information leak to a competitor company, then he/she is suspect for being involved in corporate espionage","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+
+          
+          
+          
+          
+          {"nodeID":"242","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Information leak and connections for corporate espionage","schemeID":"72", "CQ": ["Is this evidence enough to prove that he is a suspect?", "Is there actually information leak?", "Is there enough evidence that he has links to competitors?", "Is it possible that he has personal connections with people from competitor companies?"]},
+          {"nodeID":"243","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Friendly connections","schemeID":"72", "CQ": ["Is there enough evidence to prove that they are just friends?", "Did he really have connections with competitors?"]},
+          {"nodeID":"244","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Links due to conversations","schemeID":"72", "CQ": ["Is the evidence about conversations enough to prove that he has generally links to competitors?", "Did he really have these conversations?"]},
+          {"nodeID":"245","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Authorized access to confidential info","schemeID":"72", "CQ": ["Did he really have authorized access to confidential information?", "Is there any other evidence that make him suspect for corporate espionage?"]}, 
+          {"nodeID":"246","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Employee's reliability","schemeID":"72", "CQ": ["Is there enough evidence to prove that he is a reliable employee?", "Is there any chance that he pretends the reliable employee to hide his activity of espionage?"]},
+          {"nodeID":"247","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Allegations about corporate espionage","schemeID":"72", "CQ": ["Is the source of the allegations a reliable one?", "Is there any other evidence that confirm the suspicions of him being a corporate spy?"]},
+          {"nodeID":"248","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Prior employment","schemeID":"72", "CQ": ["Is there actually information leak?", "Does he still have connections with his previous colleagues?", "Is there any one else who could also be a suspect for espionage?", "Is this evidence enough to suspect someone for being a spy?"]},
+          {"nodeID":"249","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Books about startups","schemeID":"72", "CQ": ["Is the book possession an adequate evidence to infer that he is planning a startup?", "Are there any other evidence that confirm this hypothesis?", "Has he made any other movements towards the startup development?"]},
+          {"nodeID":"250","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Negative relation between startup and corporate espionage","schemeID":"72", "CQ": ["Is there enough evidence that he is planning a startup?", "Is the source of the information reliable?", "Why planning a startup excludes the possibility for corporate espionage?"]},
+          {"nodeID":"251","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"High value transactions and fund securing","schemeID":"72", "CQ": ["Are there actually high value transactions?", "Is there any chance that these transactions are related to illegal activities?", "Are there any other evidence that confirm his intention to secure funds?"]},
+          {"nodeID":"252","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Funds securing for startup","schemeID":"72", "CQ": ["Is there enough evidence that he is attempting to secure funds?", "Is there any other evidence that confirm the hypothesis that he is planning to a startup?", "Is there any chance that he is securing funds for a different reason?"]},
+          {"nodeID":"253","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Anabolic steroids in stuff","schemeID":"72", "CQ": ["Did the anabolic steroids actually located in his stuff?", "Is there any other evidence that he is using anabolic steroids?", "Could there be a different reason for the anabolic steroids to have been found in his stuff?"]},
+          {"nodeID":"254","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Anabolic steroids for body building","schemeID":"72", "CQ": ["Is he really interested in body building?", "Is it true that anyone interested in body building uses anabolic steroids?", "Is there any other evidence that he is using anabolic steroids?"]},
+          {"nodeID":"255","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Anabolic steroids and workplace bullying","schemeID":"72", "CQ": ["Is this reason enough for someone to use anabolic steroids?", "Is there any other evidence that he is using anabolic steroids?", "Is there enough evidence that he is being bullied in workplace?"]},
+          {"nodeID":"256","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Bullying, information leak and corporate espionage","schemeID":"72", "CQ": ["Is there enough evidence that he is being bullied in workplace?", "Is there really an information leak?", "Is this evidence enough to suspect someone for corporate espionage?", "Are there any other suspects?"]},
+          {"nodeID":"257","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Discredit attempts","schemeID":"72", "CQ": ["Is there enough evidence that there are such attempts against him?", "Is it enough evidence to hypothesize that his is being bullied?", "Is there any other evidence that confirm this hypothesis?"] },
+          {"nodeID":"258","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"High value purchase and money receipt","schemeID":"72", "CQ": ["Did he really have a high value purchase?", "Does this actually prove that he received a large amount of money?", "Is there any other hypothesis that could explain the high value purchase?"]},
+          {"nodeID":"259","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"High value purchase and leasing","schemeID":"72", "CQ": ["Did he really have a high value purchase?", "Is there any other hypothesis that could explain the high value purchase?"]},
+          {"nodeID":"260","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"High value purchase with partner","schemeID":"72", "CQ": ["Did he really have a high value purchase?", "Is there any other hypothesis that could explain the high value purchase?"]},
+          {"nodeID":"261","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Large amount of money and information leak for corporate espionage","schemeID":"72", "CQ": ["Is there really an information leak?", "Is there enough evidence that he received a large amount of money?", "Is there any other evidence that he is involved in corporate espionage?", "Are there any other hypotheses that could explain the money  receipt and the information leak?"]},    
+          
+          
+          {"nodeID":"263","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}, 
+          {"nodeID":"264","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}
+          
+          
+          
+         ],
+
+ "edges":[{"edgeID":"ee270","fromID":"196","toID":"242","formEdgeID":null},
+          {"edgeID":"ee271","fromID":"201","toID":"242","formEdgeID":null},
+          {"edgeID":"ee272","fromID":"197","toID":"242","formEdgeID":null},
+          {"edgeID":"ee273","fromID":"221","toID":"242","formEdgeID":null},
+          {"edgeID":"ee274","fromID":"242","toID":"198","formEdgeID":null},
+          
+          {"edgeID":"ee275","fromID":"199","toID":"243","formEdgeID":null},
+          {"edgeID":"ee276","fromID":"222","toID":"243","formEdgeID":null},
+          {"edgeID":"ee277","fromID":"243","toID":"200","formEdgeID":null},
+          
+          {"edgeID":"ee278","fromID":"199","toID":"244","formEdgeID":null},
+          {"edgeID":"ee279","fromID":"223","toID":"244","formEdgeID":null},
+          {"edgeID":"ee280","fromID":"244","toID":"197","formEdgeID":null},
+          
+          {"edgeID":"ee281","fromID":"202","toID":"245","formEdgeID":null},
+          {"edgeID":"ee282","fromID":"224","toID":"245","formEdgeID":null},
+          {"edgeID":"ee283","fromID":"245","toID":"198","formEdgeID":null},
+          
+          {"edgeID":"ee284","fromID":"203","toID":"246","formEdgeID":null},
+          {"edgeID":"ee285","fromID":"225","toID":"246","formEdgeID":null},
+          {"edgeID":"ee286","fromID":"246","toID":"204","formEdgeID":null},
+          
+          {"edgeID":"ee287","fromID":"205","toID":"247","formEdgeID":null},
+          {"edgeID":"ee288","fromID":"226","toID":"247","formEdgeID":null},
+          {"edgeID":"ee289","fromID":"247","toID":"198","formEdgeID":null},
+          
+          {"edgeID":"ee290","fromID":"206","toID":"248","formEdgeID":null},
+          {"edgeID":"ee291","fromID":"201","toID":"248","formEdgeID":null},
+          {"edgeID":"ee292","fromID":"227","toID":"248","formEdgeID":null},
+          {"edgeID":"ee293","fromID":"248","toID":"198","formEdgeID":null},
+          
+          {"edgeID":"ee294","fromID":"207","toID":"249","formEdgeID":null},
+          {"edgeID":"ee295","fromID":"228","toID":"249","formEdgeID":null},
+          {"edgeID":"ee296","fromID":"249","toID":"208","formEdgeID":null},
+          
+          {"edgeID":"ee297","fromID":"208","toID":"250","formEdgeID":null},
+          {"edgeID":"ee298","fromID":"229","toID":"250","formEdgeID":null},
+          {"edgeID":"ee299","fromID":"250","toID":"204","formEdgeID":null},
+        
+          {"edgeID":"ee300","fromID":"209","toID":"251","formEdgeID":null},
+          {"edgeID":"ee301","fromID":"230","toID":"251","formEdgeID":null},
+          {"edgeID":"ee302","fromID":"251","toID":"210","formEdgeID":null},
+          
+          {"edgeID":"ee303","fromID":"210","toID":"252","formEdgeID":null},
+          {"edgeID":"ee304","fromID":"231","toID":"252","formEdgeID":null},
+          {"edgeID":"ee305","fromID":"252","toID":"208","formEdgeID":null},
+          
+          {"edgeID":"ee306","fromID":"211","toID":"253","formEdgeID":null},
+          {"edgeID":"ee307","fromID":"232","toID":"253","formEdgeID":null},
+          {"edgeID":"ee308","fromID":"253","toID":"212","formEdgeID":null},
+          
+          {"edgeID":"ee309","fromID":"213","toID":"254","formEdgeID":null},
+          {"edgeID":"ee310","fromID":"233","toID":"254","formEdgeID":null},
+          {"edgeID":"ee311","fromID":"254","toID":"212","formEdgeID":null},
+          
+          {"edgeID":"ee312","fromID":"214","toID":"255","formEdgeID":null},
+          {"edgeID":"ee313","fromID":"234","toID":"255","formEdgeID":null},
+          {"edgeID":"ee314","fromID":"255","toID":"212","formEdgeID":null},
+          
+          {"edgeID":"ee315","fromID":"214","toID":"256","formEdgeID":null},
+          {"edgeID":"ee316","fromID":"201","toID":"256","formEdgeID":null},
+          {"edgeID":"ee317","fromID":"235","toID":"256","formEdgeID":null},
+          {"edgeID":"ee318","fromID":"256","toID":"198","formEdgeID":null},
+          
+          {"edgeID":"ee319","fromID":"215","toID":"257","formEdgeID":null},
+          {"edgeID":"ee320","fromID":"236","toID":"257","formEdgeID":null},
+          {"edgeID":"ee321","fromID":"257","toID":"214","formEdgeID":null},
+          
+          {"edgeID":"ee322","fromID":"216","toID":"258","formEdgeID":null},
+          {"edgeID":"ee323","fromID":"237","toID":"258","formEdgeID":null},
+          {"edgeID":"ee324","fromID":"258","toID":"217","formEdgeID":null},
+          
+          {"edgeID":"ee325","fromID":"216","toID":"259","formEdgeID":null},
+          {"edgeID":"ee326","fromID":"238","toID":"259","formEdgeID":null},
+          {"edgeID":"ee327","fromID":"259","toID":"218","formEdgeID":null},
+          
+          {"edgeID":"ee328","fromID":"216","toID":"260","formEdgeID":null},
+          {"edgeID":"ee329","fromID":"239","toID":"260","formEdgeID":null},
+          {"edgeID":"ee330","fromID":"260","toID":"219","formEdgeID":null},
+          
+          {"edgeID":"ee331","fromID":"217","toID":"261","formEdgeID":null},
+          {"edgeID":"ee332","fromID":"201","toID":"261","formEdgeID":null},
+          {"edgeID":"ee333","fromID":"240","toID":"261","formEdgeID":null},
+          {"edgeID":"ee334","fromID":"261","toID":"198","formEdgeID":null},
+          
+          
+          {"edgeID":"ee338","fromID":"198","toID":"263","formEdgeID":null},
+          {"edgeID":"ee339","fromID":"263","toID":"204","formEdgeID":null},
+          {"edgeID":"ee340","fromID":"204","toID":"264","formEdgeID":null},
+          {"edgeID":"ee341","fromID":"264","toID":"198","formEdgeID":null}
+         ],
+ 
+ "locutions":[]}

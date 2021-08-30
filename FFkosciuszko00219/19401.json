@@ -1,0 +1,98 @@
+{"nodes":[{"nodeID":"105","text":"Person X possesses stuff related to sports","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"106","text":"Stuff of person X is related to sightseeing holiday","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"107","text":"Person X is not involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"108","text":"There is lack of extremist motivation from Person X","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"109","text":"Person X does not posses militant equipment","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"110","text":"Militant evidence are found in person X's phone","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"111","text":"Person X is involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"112","text":"persons X and Y are present at the same place during the same period","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"113","text":"Co-presence of X and Y are present at the same place during the same period is a coincidence","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"114","text":"Person X is attempting to recruit Y","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"115","text":"persons X and Y possess documents about the same islamic group","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"116","text":"There are conversations between persons X and Y","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"117","text":"Person X possesses a Koran","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"118","text":"Person X is a Muslim","type":"I","timestamp":"2021-01-25 13:27:05"},
+          
+          {"nodeID":"119","text":"If someone possesses stuff related to sports, then his stuff is related to sightseeing holiday","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"120","text":"If someone's stuff is related to sightseeing holiday, then he is not involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"121","text":"If there is lack of extremist motivation from someone, then he is not involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"122","text":"If someone does not posses militant equipment, then he is not involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"123","text":"If there is militant evidence in someone's phone, then he is involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"124","text":"If two persons are present at the same place during the same period, then their co-presence is a coincidence","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"125","text":"If two persons are present at the same place during the same period, then one attempting to recruit the other","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"126","text":"If presence of person X at the same place, during the same period as person's Y is a coincidence, then X is not involved in militant activities","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"127","text":"If two persons possess documents about the same islamic group, then one attempting to recruit the other","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"128","text":"If two persons are present at the same place during the same period and there are conversations between them,then one attempting to recruit the other","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"129","text":"If someone possesses a Koran, then he is a Muslim","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          
+          
+          
+          {"nodeID":"130","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Sports stuff possession","schemeID":"72", "CQ": ["Is there any other reason why someone would possess sports related stuff?"]},
+          {"nodeID":"131","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Relevance of sightseeing stuff to militant activities","schemeID":"72", "CQ": ["Is there any other evidence proving about whether he is involved in militant activities?", "Is sightseeing related stuff really exclude the chances for militant activities?"]},
+          {"nodeID":"132","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Lack of extremist motivation","schemeID":"72", "CQ": ["Has every possible action been taken for collecting evidence about extremist motivation?", "Are there any other places to look for evidence?"]},
+          {"nodeID":"133","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"No possession of militant equipment","schemeID":"72", "CQ": ["Is it provable that he does not possess militant equipment?", "Has every possible action been taken for collecting evidence about militant equipment possession?", "Is militant equipment possession the only way to prove militant activities?"]},
+          {"nodeID":"134","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Militant evidence in phone","schemeID":"72", "CQ": ["Is the existence of militant evidence in phone the only way to prove militant activities?"]},
+          {"nodeID":"135","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Incidental simultaneous presence","schemeID":"72", "CQ": ["Did the concurrent presence actually happen?", "Is there any evidence about whether they came in touch?", "Can there be any other reasons for their concurrent presence in the same place?"]},
+          {"nodeID":"136","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Concurrent presence for recruitment","schemeID":"72", "CQ": ["Did the concurrent presence actually happen?", "Is there any evidence about whether they came in touch?", "Can there be any other reasons for their concurrent presence in the same place?"]},
+          {"nodeID":"137","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Incidental concurrent presence not related to militant activities","schemeID":"72", "CQ": ["Did the concurrent presence actually happen?", "Is there any evidence about whether they came in touch?", "Can there be any other reasons for their concurrent presence in the same place?"]},
+          {"nodeID":"138","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Recruitment with islamic documents","schemeID":"72", "CQ": ["Is there any other reason for someone to posses islamic documents?", "Is there any chance that this is a coincidence?", "Is there any other evidence that imply a recruitment attempt between them?"]},
+          {"nodeID":"139","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Concurrent presence and communication - Recruitment attempt","schemeID":"72", "CQ": ["Did the concurrent presence actually happen?", "Is there strong evidence about their communication?", "Could there be a different reason for their communication?"]},
+          {"nodeID":"140","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Koran possession","schemeID":"72", "CQ": ["Is there any different reason for someone to possess a Koran?"]},     
+          
+          {"nodeID":"141","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}, 
+          {"nodeID":"142","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}
+         ],
+
+ "edges":[{"edgeID":"ee146","fromID":"105","toID":"130","formEdgeID":null},
+          {"edgeID":"ee147","fromID":"119","toID":"130","formEdgeID":null},
+          {"edgeID":"ee148","fromID":"130","toID":"106","formEdgeID":null},
+          
+          {"edgeID":"ee149","fromID":"106","toID":"131","formEdgeID":null}, 
+          {"edgeID":"ee150","fromID":"120","toID":"131","formEdgeID":null},
+          {"edgeID":"ee151","fromID":"131","toID":"107","formEdgeID":null},
+          
+                    
+          {"edgeID":"ee152","fromID":"108","toID":"132","formEdgeID":null}, 
+          {"edgeID":"ee153","fromID":"121","toID":"132","formEdgeID":null},
+          {"edgeID":"ee154","fromID":"132","toID":"107","formEdgeID":null},
+          
+          {"edgeID":"ee155","fromID":"109","toID":"133","formEdgeID":null}, 
+          {"edgeID":"ee156","fromID":"122","toID":"133","formEdgeID":null},
+          {"edgeID":"ee157","fromID":"133","toID":"107","formEdgeID":null},
+          
+          {"edgeID":"ee158","fromID":"110","toID":"134","formEdgeID":null}, 
+          {"edgeID":"ee159","fromID":"123","toID":"134","formEdgeID":null},
+          {"edgeID":"ee160","fromID":"134","toID":"111","formEdgeID":null},
+          
+          {"edgeID":"ee161","fromID":"112","toID":"135","formEdgeID":null}, 
+          {"edgeID":"ee162","fromID":"124","toID":"135","formEdgeID":null},
+          {"edgeID":"ee163","fromID":"135","toID":"113","formEdgeID":null},
+          
+          {"edgeID":"ee164","fromID":"112","toID":"136","formEdgeID":null}, 
+          {"edgeID":"ee165","fromID":"125","toID":"136","formEdgeID":null},
+          {"edgeID":"ee166","fromID":"136","toID":"114","formEdgeID":null},
+          
+          {"edgeID":"ee167","fromID":"113","toID":"137","formEdgeID":null}, 
+          {"edgeID":"ee168","fromID":"126","toID":"137","formEdgeID":null},
+          {"edgeID":"ee169","fromID":"137","toID":"107","formEdgeID":null},
+          
+          {"edgeID":"ee170","fromID":"115","toID":"138","formEdgeID":null}, 
+          {"edgeID":"ee171","fromID":"127","toID":"138","formEdgeID":null},
+          {"edgeID":"ee172","fromID":"138","toID":"114","formEdgeID":null},
+          
+          {"edgeID":"ee173","fromID":"112","toID":"139","formEdgeID":null}, 
+          {"edgeID":"ee174","fromID":"116","toID":"139","formEdgeID":null},
+          {"edgeID":"ee175","fromID":"128","toID":"139","formEdgeID":null},
+          {"edgeID":"ee176","fromID":"139","toID":"114","formEdgeID":null},
+        
+          {"edgeID":"ee177","fromID":"117","toID":"140","formEdgeID":null}, 
+          {"edgeID":"ee178","fromID":"129","toID":"140","formEdgeID":null},
+          {"edgeID":"ee179","fromID":"140","toID":"118","formEdgeID":null},
+                    
+          {"edgeID":"ee180","fromID":"107","toID":"141","formEdgeID":null}, 
+          {"edgeID":"ee181","fromID":"141","toID":"111","formEdgeID":null},
+          {"edgeID":"ee182","fromID":"111","toID":"142","formEdgeID":null},
+          {"edgeID":"ee183","fromID":"142","toID":"107","formEdgeID":null}
+         ],
+ 
+ "locutions":[]}

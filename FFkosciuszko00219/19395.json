@@ -1,0 +1,37 @@
+{"nodes":[{"nodeID":"62","text":"Bombings are located in a region R","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"63","text":"Islamists have carried out bombs to region R","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"64","text":"Radicals move to region R","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"65","text":"Islamists have been displaced to region R","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"66","text":"Region R is a jihadist point","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"67","text":"Person X is proven to be related to islamic routes","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"68","text":"Person X is attempting to make connections with islamist groups","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+        
+          {"nodeID":"69","text":"If bombings are located in a region, then islamists have carried out bombs to that region","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"70","text":"If islamists have carried out bombs to a region and radicals move there and also islamists have been displaced to that region, then this region is a jihadist point","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"71","text":"If someone is proven to be related to islamic routes, then he/she is attempting to make connections with islamist groups","type":"I","timestamp":"2021-01-25 13:27:05"},
+
+          
+          
+          {"nodeID":"72","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Bombs in Region","schemeID":"", "CQ": ["Is there a different reason why the bombs were found there?", "Is there another suspect, apart from islamists, who could have carried out bombs in the region?"]},
+          {"nodeID":"73","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Jihadist Point","schemeID":"", "CQ": ["Is there evidence proving that it is not a jihadist point?"]}, 
+          {"nodeID":"74","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Islamic Routes - Islamic Connections","schemeID":"", "CQ": ["Is there a different reason why someone would be related to islamic routes?", "Does relating to islamic routes really prove connections with islamists?", "Is it actually proved that someone is related to islamic routes?"]}
+         
+         ],
+
+ "edges":[{"edgeID":"ee93","fromID":"62","toID":"72","formEdgeID":null},
+          {"edgeID":"ee94","fromID":"69","toID":"72","formEdgeID":null},
+          {"edgeID":"ee95","fromID":"72","toID":"63","σformEdgeID":null},
+          
+          {"edgeID":"ee96","fromID":"63","toID":"73","formEdgeID":null}, 
+          {"edgeID":"ee97","fromID":"64","toID":"73","formEdgeID":null},
+          {"edgeID":"ee98","fromID":"65","toID":"73","formEdgeID":null},
+          {"edgeID":"ee99","fromID":"70","toID":"73","formEdgeID":null},
+          {"edgeID":"ee100","fromID":"73","toID":"66","formEdgeID":null}, 
+          
+          
+          {"edgeID":"ee101","fromID":"67","toID":"74","formEdgeID":null}, 
+          {"edgeID":"ee102","fromID":"71","toID":"74","formEdgeID":null},
+          {"edgeID":"ee103","fromID":"74","toID":"68","formEdgeID":null}
+         ],
+ 
+ "locutions":[]}

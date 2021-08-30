@@ -1,0 +1,61 @@
+{"nodes":[{"nodeID":"75","text":"Person X is related to islamic groups","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"76","text":"Person X attempts to erase evidence of guilt","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"77","text":"Person X possesses documents about extremist groups","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"78","text":"Person X is a militant","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"79","text":"Person X is a low-level foreign fighter","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"80","text":"Person X is tasked to scout transit routes","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"81","text":"Person X is tasked to recruiting new militants","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"82","text":"Lack of evidence about relation between persons X and Y","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"83","text":"There is no recruitment between persons X and Y","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+        
+          
+          {"nodeID":"84","text":"If someone is related to islamic groups and attempts to erase evidence of guilt and possesses documents about extremist groups, then he/she is a militant","type":"I","timestamp":"2021-01-25 13:27:05"}, 
+          {"nodeID":"85","text":"If someone is a low-level foreign fighter, then he/she is tasked to scouting transit routes","type":"I","timestamp":"2021-01-25 13:27:05"},   
+          {"nodeID":"86","text":"If someone is a low-level foreign fighter, then he/she is tasked to recruiting new militants","type":"I","timestamp":"2021-01-25 13:27:05"},  
+          {"nodeID":"87","text":"If someone possesses documents about extremist groups, then he/she is tasked to recruiting new militant","type":"I","timestamp":"2021-01-25 13:27:05"},
+          {"nodeID":"88","text":"If there is lack of evidence about relation between two persons, then there is no recruitment between them","type":"I","timestamp":"2021-01-25 13:27:05"},
+          
+          
+          {"nodeID":"89","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Militant - Connections to islamist groups and possesion of islamist documents","schemeID":"", "CQ": ["Is there any different evidence proving that he is not a militant?"]},
+          {"nodeID":"90","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Scouting transit routes","schemeID":"", "CQ": ["Is he really a low level foreign fighter?", "Couldn't he be tasked to a different role?"]}, 
+          {"nodeID":"91","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Low level foreign fighter - Recruiting","schemeID":"", "CQ": ["Is he really a low level foreign fighter?", "Couldn't he be tasked to a different role?"]},
+          {"nodeID":"92","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Extremist documents - Recruiting","schemeID":"", "CQ": ["Couldn't he be tasked to a different role?", "Does having extremist groups actually prove that someone is recruiting militants?"]}, 
+          {"nodeID":"93","text":"Default Inference","type":"RA","timestamp":"2021-01-26 09:23:34","scheme":"Lack of evidence - No recruiting","schemeID":"", , "CQ": ["Can we find evidence that prove the relation?"]},
+
+          {"nodeID":"94","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}, 
+          {"nodeID":"95","text":"Default Conflict","type":"CA","timestamp":"2021-01-26 09:29:00","scheme":"Default Conflict","schemeID":"71"}
+         
+         ],
+
+ "edges":[{"edgeID":"ee110","fromID":"75","toID":"89","formEdgeID":null},
+          {"edgeID":"ee111","fromID":"76","toID":"89","formEdgeID":null},
+          {"edgeID":"ee112","fromID":"77","toID":"89","formEdgeID":null},
+          {"edgeID":"ee113","fromID":"84","toID":"89","formEdgeID":null}, 
+          {"edgeID":"ee114","fromID":"89","toID":"78","formEdgeID":null},
+          
+          
+          {"edgeID":"ee115","fromID":"79","toID":"90","formEdgeID":null},
+          {"edgeID":"ee116","fromID":"85","toID":"90","formEdgeID":null},
+          {"edgeID":"ee117","fromID":"90","toID":"80","formEdgeID":null}, 
+          
+          
+          {"edgeID":"ee118","fromID":"79","toID":"91","formEdgeID":null}, 
+          {"edgeID":"ee119","fromID":"86","toID":"91","formEdgeID":null},
+          {"edgeID":"ee120","fromID":"91","toID":"81","formEdgeID":null},
+          
+          {"edgeID":"ee118","fromID":"77","toID":"92","formEdgeID":null}, 
+          {"edgeID":"ee119","fromID":"87","toID":"92","formEdgeID":null},
+          {"edgeID":"ee120","fromID":"92","toID":"81","formEdgeID":null},
+          
+                    
+          {"edgeID":"ee118","fromID":"77","toID":"93","formEdgeID":null}, 
+          {"edgeID":"ee119","fromID":"88","toID":"93","formEdgeID":null},
+          {"edgeID":"ee120","fromID":"93","toID":"83","formEdgeID":null}, 
+          
+          {"edgeID":"ee121","fromID":"81","toID":"94","formEdgeID":null},          
+          {"edgeID":"ee122","fromID":"94","toID":"83","formEdgeID":null}, 
+          {"edgeID":"ee123","fromID":"83","toID":"95","formEdgeID":null},
+          {"edgeID":"ee124","fromID":"95","toID":"81","formEdgeID":null}, 
+         ],
+ 
+ "locutions":[]}
